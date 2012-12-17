@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Japenses Learning Online | Jiahan Wang</title>
+<link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon"/>
+<link  rel="stylesheet"type="text/css" href="../public/css/article-base.css"/>
+<link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+<!–[if IE9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]–>
+</head>
+
+<body>
+<!-- Navbar -->
+<div id="navWrapper">
+<nav id="navBar">
+		<div class="title"><a class="logo" href="../index.html">Jiahan Wang</a></div>
+        <div class="links">
+            <ul id="links">
+                <li><a class="link" href="#"><img src="../public/img/mail.png"/><img class="second" src="../public/img/mail2.png"/></a></li>
+                <li><a class="link" href="#"><img src="../public/img/fb.png"/><img class="second" src="../public/img/fb2.png"/></a></li>
+                <li><a class="link" href="#"><img src="../public/img/github.png"/><img class="second" src="../public/img/github2.png"/></a></li>
+            </ul>
+        </div>
+        <div class="corner"><img src="../public/img/nav_corner.png" width="70px" height="70px"/></div>     
+</nav>
+</div>
+<!-- Main  -->
+    <article id="main">
+        <header class="article-header"><h1>Japenses Learning Online</h1></header>
+        <section>
+        <header><h2 class="first">Demo Link</h2></header>
+        <p><a target="_blank" href="japanese_index/index.html">www.jiahanwang.me/article/japanese_index</a><br/>
+        <span class="notice">NOTICE: As this system is for internal use, this link only demonstrates the interface.</span></p> 
+        </section>
+        <section>
+        <header><h2>Responsibility</h2></header>
+        <p>Front-end Designer & Developer</p>
+        </section>
+        
+        <section>
+        <header><h2>Feathers</h2></header>
+        <h3>HTML5</h3>
+        <p>
+In the index page, audio is achieved by HTML5 audio tag. All the pages are constructed in the new HTML5 construction except the index one. All the pages are written manually without using any templates and can be verified by W3C.org.
+</p>
+        <h3>The Theory of Gestalt</h3><p>
+By applying the Similarity Principle from the theory of Gestalt, it is natural for users to divide the index page into three parts: Application Links, News Links and Other Links and thus it is easy to quickly find what they want.
+</p>
+        <h3>Pin in IE9</h3><p>
+IE9 has a cool and innovative feather to let users pin their favorite websites into the task bar, which makes a website look like a local application. What is more, by using a few lines of code, we can include our entire menu in the task bar's jump list. Although this is not standard, it is very awesome and may be implemented by other browsers in the future.
+</p>
+        
+    </article>
+    <div class="shadow"></div>
+    <footer id="version">
+    	<span>Copy Right &copy; 2012 JIAHANWANG.ME</span>
+    </footer>
+
+</div>
+</body>
+<script type="text/javascript" src="../public/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	//Link Event Hover Handler
+	$("#navBar li").hover(
+		function(){ $(this).find("img.second").fadeIn(300);},
+		function(){ $(this).find("img.second").fadeOut(300);}
+	);
+});
+
+
+</script>
+</html>

@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #000;
+}
+div.header{
+	width: 100%;
+	height:45px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 10;
+		
+}
+
+div.logo{
+	position: absolute;
+	top: 0px;
+	left:50%;
+	margin-left: -573px;
+	z-index: 100;
+}
+
+div.logo a{
+	text-decoration: none;
+	color: transparent;
+	
+}
+
+div.navlist{
+	background-color: #000;
+	width: 100%;
+	height:45px;
+	box-shadow: 0px 5px 10px gray;
+	-moz-box-shadow: 0px 5px 10px gray;
+	-webkit-box-shadow: 0px 5px 10px gray;
+
+}
+div.navlist ul{
+	margin: 0;
+	padding: 0;
+	width: 800px;
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	margin-left: -333px;
+}
+div.navlist li{
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+	margin-left: -10px;
+	list-style-type: none;
+}
+div.navlist a{
+	color: #FFF;
+	text-decoration: none;
+	display: inline-block;
+	background-color: transparent;
+	width: 100px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+div.mainPanel{
+	width: 860px;
+	left: 50%;
+	margin-left: -400px;
+	z-index: 1;
+	display: none;
+	position: absolute;
+	top: 100px;
+}
+div.page {
+	width: 860px;
+	height: 550px;
+}
+div.pageFinal{
+	
+}
+div#PageOne{
+	left: 0px;
+	top: 0px;
+	position: absolute;
+}
+div#PageTwo{
+	left: 0px;
+	top: 590px;
+	position: absolute;
+}
+div.CastPanel {
+	background-color: transparent;
+	width: 860px;
+	height: 550px;
+}
+div.CastPanel div{
+	filter: Alpha(Opacity=80);
+	opacity: 0.8;
+	display: inline;
+	height: 550px;
+	width: 171px;
+	position: absolute;
+}
+
+div.First{
+	left: 0px;
+	top: 0px;
+}
+div.Second{
+	left: 171px;
+	top: 0px;
+}
+div.Third{
+	left: 342px;
+	top: 0px;
+}
+div.Fourth{
+	top: 0px;
+	right: 184px;
+}
+div.Fifth{
+	top: 0px;
+	right: 13px;
+}
+div.CastFourth{
+	right: 176px;
+}
+div.CastFifth{
+	right: 5px;
+}
+
+div.Cases{
+	
+	position: absolute;
+	width: 163px;
+	height: 550px;
+	display: none;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
+}
+	
+div.vertical {
+}
+/* root element for scrollable items */
+div.items {
+	position:absolute;
+	/* this time we have very large space for height */	
+	height:20000em;
+	margin: 0px;
+}
+div.item {
+	text-align: center;
+	height: 550px;
+	width: 505px;
+}
+
+img[name="loading"] {
+	position: relative;
+	top: 220px;
+}
+.close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	display: none;
+}
+.prev {
+	position: absolute;
+	top: 195px;
+	right: 20px;
+	display: none;
+}
+.next {
+	float:right;
+	position: absolute;
+	top: 300px;
+	right: 20px;
+	display: none;
+}
+
+.disabled {
+	visibility:hidden;		
+}
+img.actionButton {
+	height: 50px;
+	width: 50px;
+	filter: Alpha(Opacity=40);
+	opacity: 0.4;
+}
+img.actionButton:hover {
+	filter: Alpha(Opacity=100);
+	opacity: 1;
+}
+img.actionButtonClose {
+	height: 30px;
+	width: 30px;
+}
+
+div.footer {
+	color: #FFF;
+	background-color: #000;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	z-index: 1;
+	font-family: "微软雅黑";
+	position: relative;
+	left: 0px;
+	top: 1350px;
+	box-shadow: 0px -4px 10px gray;
+	-webkit-box-shadow: 0px -4px 10px gray;
+	-moz-box-shadow: 0px -4px 10px gray;	
+}
+div.footerMain {
+	margin-left: auto;
+	width: 410px;
+	margin-right: auto;
+	padding-left: 50px;
+}
+div.footerLogo {
+	display: inline-block;
+	height: 100px;
+	width: 105px;
+
+}
+div.footerLogo img{
+	position: relative;
+	top: 15px;
+	}
+div.footerContent {
+	display: inline-block;
+	height: 100px;
+	width: 300px;
+}
+
+div.footerNav ul{
+	margin: 0;
+	padding: 0;
+}
+div.footerNav li{
+	display: inline-block;
+}
+div.footerNav li.footerNavMid {
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+}
+
+div.footerNav a{
+	color: #FFF;
+	font-size: 16px;
+	text-decoration: none;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+div.footerNav a:hover{
+	text-decoration: underline;	
+}
+div.footerPrivacy{
+	font-size: 12px;
+	margin-left: 15px;
+}

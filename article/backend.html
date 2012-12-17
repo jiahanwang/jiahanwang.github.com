@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Back End Skills | Jiahan Wang</title>
+<link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon"/>
+<link  rel="stylesheet"type="text/css" href="../public/css/article-base.css"/>
+<link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+<!–[if IE9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]–>
+</head>
+
+<body>
+<!-- Navbar -->
+<div id="navWrapper">
+<nav id="navBar">
+		<div class="title"><a class="logo" href="../index.html">Jiahan Wang</a></div>
+        <div class="links">
+            <ul id="links">
+                <li><a class="link" href="#"><img src="../public/img/mail.png"/><img class="second" src="../public/img/mail2.png"/></a></li>
+                <li><a class="link" href="#"><img src="../public/img/fb.png"/><img class="second" src="../public/img/fb2.png"/></a></li>
+                <li><a class="link" href="#"><img src="../public/img/github.png"/><img class="second" src="../public/img/github2.png"/></a></li>
+            </ul>
+        </div>
+        <div class="corner"><img src="../public/img/nav_corner.png" width="70px" height="70px"/></div>     
+</nav>
+</div>
+<!-- Main  -->
+    <article id="main">
+        <header class="article-header"><h1>Back End Skills</h1></header>
+        <section>
+        <header><h2 class="first">Java</h2></header>
+        <p>Java was not born just for web; however, it turned out to be one of the most popular languages to build back-end for web applications. The most exciting thing about Java is its spirit of open source. Since Java was created, hundreds of programmers in the world have developed enormous free jar packages. As the result, Java is enhanced and extended. The abundant frameworks might be another advantage of Java. <strong>SSH</strong> is common-used in web development. It is a combination of three frameworks aiming at different layers of a website. </p> 
+	      
+        <ul>
+        <li><strong>Struts: </strong> The goal of Struts is to separate the model from the view and the controller. It is very easy to manage these three parts by maintaining a config.xml file. Furthermore, its powerful custom tag library allows Struts to read and write the content of JavaBeans from the presentation layer without the need for any embedded Java code.</li>
+        <li><strong>Spring: </strong>Spring might be the most elegant and innovative framework ever. The most important feather is the Inversion of Control container done mainly via dependency injection. You just have to register a class in the configuration file and, Spring will manage lifecycle of Java objects. Spring has its own AOP framework which is very helpful for transaction management, security, and remote access.</li>
+        <li><strong>Hibernate: </strong>Hibernate is an object-relational mapping (ORM) library, providing a framework for mapping an object-oriented domain model to a traditional relational database. Its primary feature is mapping from Java classes to database tables. To manage mapping is easy, also by maintaining a XML configuration file.</li>
+        </ul>
+        </section>
+        <section id="php">
+        <header><h2>PHP</h2></header>
+        <p>Just as its P-family competitors - ASP and JSP, PHP is a server-side scripting language and it can be embedded into an HTML source document rather than calling an external file to process data. However, PHP is light-weight and easier to develop. To connect to a database especially MySQL is easygoing. Also the superglobals are precise tools for us. $_REQUEST, $_POST, $_GET let us to fetch data in http request conveniently. Client authentication is no longer complex with $_COOKIE and $_SESSION.</p>
+
+        </section>
+        <section id="c">
+        <header><h2>C/C++</h2></header>
+        <p>For a front end developer, C and C++ usually aren’t used. Nonetheless, these two programming languages are the base of other top-level languages. Many engines or interpreters are built in C or C++. These two are also the first choice for beginners. I stepping into the world of Computer Science guided by C language and, C++ showed me the door to OOP programming.</p>
+        </section>
+    </article>
+    <div class="shadow"></div>
+    <footer id="version">
+    	<span>Copy Right &copy; 2012 JIAHANWANG.ME</span>
+    </footer>
+
+</div>
+</body>
+<script type="text/javascript" src="../public/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	//Link Event Hover Handler
+	$("#navBar li").hover(
+		function(){ $(this).find("img.second").fadeIn(300);},
+		function(){ $(this).find("img.second").fadeOut(300);}
+	);
+});
+
+
+</script>
+</html>

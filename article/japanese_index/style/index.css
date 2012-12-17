@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+img {
+	border: 0;
+	
+}
+body {
+	background-color: #F5F9FC;
+}
+div#mainPanel {
+	width: 878px;
+	height: 656px;
+	position:absolute;
+	margin-left: -450px;
+	margin-top: -328px;
+	z-index: 100;
+	left: 50%;
+	top: 50%;
+	font-family: "微软雅黑";
+	display: none;
+}
+div.backPanel {
+	display: none;
+}
+
+div#titlePanel {
+	position: absolute;
+	left: 13px;
+	top: 32px;
+	text-align: center;
+	width: 881px;
+}
+
+div#buttonPanel {
+	margin-top: 0px;
+	position: absolute;
+	left: 3px;
+	top: 200px;
+}
+div#buttonPanel img{
+	width: 200;
+	height: 120;
+	
+}
+div#buttonPanel2 {
+	position: absolute;
+	left: 3px;
+	top: 200px;
+	overflow: hidden;
+}
+div#newsPanel {
+	width: 259px;
+	position: absolute;
+	top: 197px;
+	padding: 0px;
+	right: 0px;
+}
+
+div#newsPanel li {
+	background-position: left;
+	list-style-position: outside;
+	list-style-image: url(../img/news_pin.png);
+	margin-bottom: 15px;
+}
+div#newsPanel a:link, #newsPanel a:visited{
+	font-size: 19px;
+	color: #0F3253;
+	font-weight: 900;
+	text-decoration: none;
+}
+div#newsPanel a:hover{
+	color: #06F;
+	text-decoration: underline;
+}
+
+a#newsPanelMore{
+	width: 90px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	font-style: oblique;
+}
+div#linkPanel {
+	position: absolute;
+	text-align:right;
+	margin-top: -60px;
+	width: 300px;
+	top: 567px;
+	right: 0px;
+	
+}
+div#linkPanel .linkButtons{
+	width: 50px;
+	hight: 50px;
+	margin-left: 30px;
+}
+div#linkPanel div{
+	font-size: 18px;
+	font-weight: bold;
+	filter: Alpha(Opacity=85, Style=0);
+	opacity: 0.85;
+	width: 100px;
+	padding-top: 10px;
+	text-align: center;
+	height: 35px;
+	color: #FFF;
+	display: none;
+	z-index: 101;
+}
+div#linkPanel #idevelop{
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
+	left: 227px;
+	top: 53px;
+	background-color: #175CAC;
+}
+div#linkPanel #imsg{
+	position: absolute;
+	left: 140px;
+	top: 53px;
+	text-align: center;
+	background-color: #175CAC;
+}
+
+
+div#linkPanel #ifriends{
+	position: absolute;
+	left: 0px;
+	top: 53px;
+	height: 100px;
+	width: 200px;
+	background-color: #175CAC;
+}
+div#ifriends a:link,#ifriends a:visited{
+	color: #FFF;
+	font-size: 16px;
+	text-decoration: none;
+}
+div#ifriends a:hover{
+	color: #FFF;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+div#copyRightPanel {
+	font-size: 16px;
+	color: #515151;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	z-index: inherit;
+	
+}
+div#copyRightPanelp{
+	margin-top: -15px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Japanese Composition Online | Jiahan Wang</title>
+<link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon"/>
+<link  rel="stylesheet"type="text/css" href="../public/css/article-base.css"/>
+<link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+<!–[if IE9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]–>
+</head>
+
+<body>
+<!-- Navbar -->
+<div id="navWrapper">
+<nav id="navBar">
+		<div class="title"><a class="logo" href="../index.html">Jiahan Wang</a></div>
+        <div class="links">
+            <ul id="links">
+                <li><a class="link" href="#"><img src="../public/img/mail.png"/><img class="second" src="../public/img/mail2.png"/></a></li>
+                <li><a class="link" href="#"><img src="../public/img/fb.png"/><img class="second" src="../public/img/fb2.png"/></a></li>
+                <li><a class="link" href="#"><img src="../public/img/github.png"/><img class="second" src="../public/img/github2.png"/></a></li>
+            </ul>
+        </div>
+        <div class="corner"><img src="../public/img/nav_corner.png" width="70px" height="70px"/></div>     
+</nav>
+</div>
+<!-- Main  -->
+    <article id="main">
+        <header class="article-header"><h1>Japanese Composition Online</h1></header>
+        <section>
+        <header><h2 class="first">Responsibility</h2></header>
+
+        <p>Developer & UI Designer</p>
+	  
+        </section>
+        <section>
+        <header><h2>Introduction</h2></header>
+        <p>This is a BS system with a rich client interface and a powerful website background system. Student users write their compositions online; then teachers mark the compositions by adding tags. Teachers can also assign a task of certain topic for certain class.</p>
+        </section>
+        <section>
+        <header><h2>Feathers</h2></header>
+        <h3>Struts</h3>
+        <p>The back end of this system is based on Struts Frameworks. And JDBC is applied to connect the MySQL database.</p>
+        <h3>jQuery UI</h3>
+        <p>To enhance the usability, several jQuery UI widgets are used. Accordian can help users to compare the origin and the revised compositions. Tabs could show multi pages in a iframe.</p>
+        <h3>JFreeChart</h3>
+        <p>The system stores the compositions by a XML tool. Then JFreeChart plugin will be applied to analyze errors and generate reports to teachers.</p>
+        </section>
+    </article>
+    <div class="shadow"></div>
+    <footer id="version">
+    	<span>Copy Right &copy; 2012 JIAHANWANG.ME</span>
+    </footer>
+
+</div>
+</body>
+<script type="text/javascript" src="../public/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	//Link Event Hover Handler
+	$("#navBar li").hover(
+		function(){ $(this).find("img.second").fadeIn(300);},
+		function(){ $(this).find("img.second").fadeOut(300);}
+	);
+});
+
+
+</script>
+</html>

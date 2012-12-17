@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #F2F2F2;
+}
+img{
+	border: none;
+}
+/*********** NavBar ***********/
+div#navWrapper{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 70px;
+	width:510px;
+	opacity: 0.7;
+}
+nav div{
+	float: left;
+	height: 70px;
+	background-color: #000;
+	display: inline-block;
+}
+nav a.logo{
+	font: 700 25px/70px Raleway,'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0px 40px 0px 30px;
+}
+nav div.corner{
+	background-color: transparent;
+}
+nav div.links{
+	width: 200px;
+	overflow:hidden
+}
+nav ul{
+	display: inline-block;
+	width: 200px;
+	height: 70px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #000;
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+	width: 60px;
+	height: 70px;
+	margin: 0px;
+	padding: 0px;
+}
+nav a.link img{
+	position: relative;
+	top: 15px;
+	left: 5px
+}
+nav a.link img.second{
+	display: none;
+	margin-left: -30px;
+}
+/*********** Main ***********/
+article#main{
+	width: 780px;
+	margin: 100px auto 0px auto;
+	padding: 60px 80px 60px 80px;
+	background-color: white;
+	border: 1px solid #BDBDBD;
+	overflow: hidden;/*for Chrome*/
+}
+.article-header{
+	height: 50px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #c40f0f;
+	
+}
+h1{
+	font: 600 30px 'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
+float: right;
+color: #c40f0f;
+
+}
+h2{
+	font: 600 25px 'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
+	color: #c40f0f;
+	margin-top: 1.5em;
+	
+}
+h2.first{
+	margin-top: 1em;
+}
+h3{
+	font: 600 20px 'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
+}
+
+p{
+	font: 300 16px/28px 'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
+	text-align: justify;
+	margin-bottom: 1em;	
+}
+span.notice{
+	font-size: 14px;
+	color: #767676;
+}
+section strong{
+	font-weight: 800;
+}
+section ul{	
+}
+section ul li{
+	font: 300 16px/28px 'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;	
+	margin-bottom: 10px;
+	text-align: justify;
+}
+code {
+	padding: 2px 4px;
+	color: #c40f0f;
+	white-space: nowrap;
+	background-color: #F7F7F9;
+	border: 1px solid #E1E1E8;
+	font: bold 15px Monaco, Menlo, Consolas, "Courier New", monospace;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+		    border-radius: 3px;
+}
+section a:link, section a:visited{
+	text-decoration: none;
+	color: #c40f0f;
+}
+section a:hover, section a:active, section a:focus{
+	text-decoration: none;
+	border-bottom: 1px dotted #fb1616;
+	color: #fb1616;
+}
+.shadow {
+	height: 32px;
+	margin: 0 auto;
+	width: 940px;
+	background-color: transparent;
+	background-image: url(../img/shadow.png);
+	background-repeat: no-repeat;
+}
+/*********** Footer ***********/
+footer#version{
+	background: transparent;
+	margin: 0px auto 50px auto;
+	text-align: center;
+	width: 500px;
+	color: #ABABAB;
+	font: normal 14px 'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
+}
+/*********** Selection ***********/
+*::selection {
+	background: #fb1616;
+	color: white;
+}
+*::-moz-selection {
+    background:#fb1616;
+    color: white;
+}
+*::-webkit-selection {
+    background:#fb1616;
+    color: white;
+}

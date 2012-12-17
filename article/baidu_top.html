@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Motions Detective | Jiahan Wang</title>
+<link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon"/>
+<link  rel="stylesheet"type="text/css" href="../public/css/article-base.css"/>
+<link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+<!–[if IE9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]–>
+</head>
+
+<body>
+<!-- Navbar -->
+<div id="navWrapper">
+<nav id="navBar">
+		<div class="title"><a class="logo" href="../index.html">Jiahan Wang</a></div>
+        <div class="links">
+            <ul id="links">
+                <li><a class="link" href="#"><img src="../public/img/mail.png"/><img class="second" src="../public/img/mail2.png"/></a></li>
+                <li><a class="link" href="#"><img src="../public/img/fb.png"/><img class="second" src="../public/img/fb2.png"/></a></li>
+                <li><a class="link" href="#"><img src="../public/img/github.png"/><img class="second" src="../public/img/github2.png"/></a></li>
+            </ul>
+        </div>
+        <div class="corner"><img src="../public/img/nav_corner.png" width="70px" height="70px"/></div>     
+</nav>
+</div>
+<!-- Main  -->
+    <article id="main">
+        <header class="article-header"><h1>Baidu&reg Top Words</h1></header>
+        <section>
+        <header><h2 class="first">Responsibility</h2></header>
+
+        <p>Front-end Developer & Designer</p>
+	  
+        </section>
+        <section>
+        <header><h2>Introduction</h2></header>
+        <p>This web application aims to assist Baidu editors to edit the popular words searched by users, as the display area of mobile devices is limited.</p>
+        </section>
+        <section>
+        <header><h2>Feathers</h2></header>
+        <h3>Responsive CSS & JS</h3>
+        <p>This web application needs to adapt to PC and mobile devices, thus responsive style sheets are applied. Moreover, as user behavior of tablets, phones with touch screen differs greatly from that of traditional PCs, JavaScript is also written in a responsive way.
+</p>
+        <h3>UUAP</h3>
+        <p>UUAP(User Unify Authentication Platform)is a user data management and authentication system developed by Baidu. It has two sub-systems: UIC（User Information Center）and SSO（Single Sign On）. By applying php CAS, a web system could use these services without worrying user data management and safety issues.</p>
+        </section>
+    </article>
+    <div class="shadow"></div>
+    <footer id="version">
+    	<span>Copy Right &copy; 2012 JIAHANWANG.ME</span>
+    </footer>
+
+</div>
+</body>
+<script type="text/javascript" src="../public/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	//Link Event Hover Handler
+	$("#navBar li").hover(
+		function(){ $(this).find("img.second").fadeIn(300);},
+		function(){ $(this).find("img.second").fadeOut(300);}
+	);
+});
+
+
+</script>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Front End Skills | Jiahan Wang</title>
+<link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon"/>
+<link  rel="stylesheet"type="text/css" href="../public/css/article-base.css"/>
+<link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
+<!–[if IE9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]–>
+</head>
+
+<body>
+<!-- Navbar -->
+<div id="navWrapper">
+<nav id="navBar">
+		<div class="logoWrapper"><a class="logo" href="../index.html">Jiahan Wang</a></div>
+        <div class="links">
+            <ul id="links">
+                <li><a class="link" href="#"><img src="../public/img/mail.png"/><img class="second" src="../public/img/mail2.png"/></a></li>
+                <li><a class="link" href="#"><img src="../public/img/fb.png"/><img class="second" src="../public/img/fb2.png"/></a></li>
+                <li><a class="link" href="#"><img src="../public/img/github.png"/><img class="second" src="../public/img/github2.png"/></a></li>
+            </ul>
+        </div>
+        <div class="corner"><img src="../public/img/nav_corner.png" width="70px" height="70px"/></div>     
+</nav>
+</div>
+<!-- Main  -->
+    <article id="main">
+        <header class="article-header"><h1>Front End Skills</h1></header>
+        <section id="javascript">
+        <header ><h2 class="first">JavaScript</h2></header>
+        <p>Yes, JavaScript is not hard to get started. But it is never on the list of the possible most easiest programming languages on the earth. Even in real industry, few front-end developers would say they are professional in JavaScript. I started my JS journey since my sophomore year. What really deepened my understanding in JS is the book <a target="_blank" href="http://www.amazon.com/Professional-JavaScript-Developers-Nicholas-Zakas/dp/1118026691"><em>Professional JavaScript for Wed Developers</em></a> by Nicholas C. Zakas which I read as preparation for the interview of Baidu Internship. JS is a bizarre language in various kinds of ways. Here are some aspects that I think distinguish JS:</p>      
+        <ul>
+        <li><strong>Loose typing is not so loose: </strong>JS is a loose typing language. However, this doesn’t mean there is no need for us to worry about datatypes. Actually, JS has five basic datatypes: Undefined, Null, Boolean, Number and String; it also has a primitive datatype: Object. Weird things usually happen when transferring between different types especially Undefined, Null and NaN(sub type of Number). We also should focus when we want to use <code>===</code>and <code>switch()</code> as they do not transfer datatypes automatically.</li>
+        <li><strong>BOM is a BOMB: </strong>Another annoying thing about JS is cross-browser programming. A typical JavaScript implementation usually has three parts: Core APIs, Document Object Model (DOM) and Browser Object Model (BOM). The Core APIs follows the ECMAScript standard and hardly varies among browsers. DOM follows W3C standards and behaves similarly (the biggest exception is IE). When it comes to BOM, BANG! Since there is no BOM standard, APIs are implemented according to browser vendors’ tastes. A quick way to solve this problem is to apply a JS framework such as jQuery. We can also build our own utility library since there are many good examples in <a target="_blank" href="http://www.amazon.com/Professional-JavaScript-Developers-Nicholas-Zakas/dp/1118026691"><em>Professional JavaScript for Web Developers</em></a> and <a target="_blank" href="http://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527"><em>JavaScript- the Definite Guide</em></a>. </li>
+        <li><strong>Function is Object: </strong>I have to say I regarded JS as a process-oriented language at first.JS supports OOP; it just implements OOP in a different way. Firstly, the key word class doesn’t exist in JS. We should use <code>function</code> to declare a class and then create a object by using the key word <code>new</code>. In addition, the inheritance in JS is prototype-based instead of classic class-based. We often inherit attributes and methods desperately, which is named Combination Inheritance.</li>
+        </ul>
+
+        <p id="css">It is still a looooong way to be a JS professional. However, I have known what I should do and have started my new journey ;).</p>
+        <p>
+        </section>
+        <section >
+        <header><h2>CSS2/CSS3</h2></header>
+<p>JavaScript is bizarre enough, but CSS is more bizarre. Especially when the web page is required to be compatible with IE6, here comes the nightmare. However thanks to efforts made by non-IE browser vendors,even Microsoft itself, IE6 has gradually stepped out of our view. In fact, I test my web pages primarily in Chrome and Firefox. At last, I would do some extra work for IE8, the default browser of Windows XP. CSS3, the new enhanced CSS, is revolutionary. Here I list some of the new features I favor most:
+
+<ul>
+<li><strong>box-pack and box-align: </strong>These two feathers are definitely my favorites. CSS is very powerful when compared to the out-of-dated style attribute. But to center an element is surprisingly not an easy work. With these two new feathers, it becomes an easy work.</li>
+<li><strong>box-shadow and border-radius: </strong>These two buddies are the first choice to embellish the web pages. Again, it is much easier than the old image-based shadow and borders.</li>
+<li id="html"><strong>Powerful Selectors: </strong>The new CSS3 selectors are very convenient. As supported by jQuery, they are widely used nowadays.</li>
+</ul>
+</p>
+        </section>
+        <section >
+        <header><h2>(X)HTML/HTML5</h2></header>
+<p>Basically, HTML5 is not the direct descent of XHTML, as XHTML is defined in XML. Additionally, HTML5 doesn’t include the HTML tags alone; it symbols a new system consisting of HTML tags and JavaScript APIs. Here are the new feathers I have applied in my projects:</p>
+<ul>
+<li><strong>Sematic Tags:</strong> It is very confusing to read a web page full of <code>&lt;div&gt</code>; both for human coders and machine readers. Thus, the sematic tags are very necessary. </li>
+<li><strong>Video and Audio:</strong> Fantastic new functions. We no longer need to write some ugly codes to embed a Flash player into our pages.</li>
+<li><strong>Cross-document Messaging:</strong> Another dream function! No need to message via back-end and JSON can also be used.</li>
+<li><strong>Web Workers:</strong> The definition of thread doesn’t exist in JavaScript, which brings disadvantage to the performance. HTML5 allows us to use Web Workers API to create workers (threads), so that our JS programs could run parallel. </li>
+</ul>
+
+        </section>
+    </article>
+    <div class="shadow"></div>
+    <footer id="version">
+    	<span>Copy Right &copy; 2012 JIAHANWANG.ME</span>
+    </footer>
+
+</div>
+</body>
+<script type="text/javascript" src="../public/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	//Link Event Hover Handler
+	$("#navBar li").hover(
+		function(){ $(this).find("img.second").fadeIn(300);},
+		function(){ $(this).find("img.second").fadeOut(300);}
+	);
+	$("a.logo").hover(
+		function(){ },
+		function(){}
+	);
+});
+
+
+</script>
+</html>

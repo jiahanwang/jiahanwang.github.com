@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+article,header,footer,section,nav,aside,figure,dialog,legend{
+	dispaly: block;
+}
+	
+.mainWrapper {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	position: absolute;
+	width: 900px;
+	left: 50%;
+	top: 40px;
+	margin-left: -450px;
+}
+.articleWrapper{
+	border: none;
+	border-radius: 20px;
+	-o-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-boder-radius: 20px;
+	box-shadow: 10px 15px 30px gray;
+	-webkit-box-shadow: 10px 15px 30px gray;
+	-moz-box-shadow: 10px 15px 20px gray;
+	color: #0F3253;
+	width: 800px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	background-color: #FFF;
+	padding-top: 30px;
+}
+
+.footerWrapper {
+	text-align: center;
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #515151;
+	margin-top: 50px;
+}
+h1 {
+	font-size: 25px;
+	margin-bottom: -1px;
+	
+}
+h2 {
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: -15px;
+}
+
+section {
+	width: 800px;
+}
+header {
+	margin-bottom: 30px;
+}
+fieldset{
+	border: none;
+}

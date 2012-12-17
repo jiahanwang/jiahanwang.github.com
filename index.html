@@ -2,47 +2,142 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Jiahan Wang</title>
-<link rel="shortcut icon" href="public/img/favicon32.ico" type="image/x-icon"/>
-<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
-<style>
-body{
-    background-image: url(public/img/background.png);
-    background-repeat: repeat;
-}
-div#main{
-    position: absolute;
-    width: 750px;
-    height: 120px;
-    top: 50%;
-    left: 50%;
-    margin: -130px 0px 0px -325px;	
-}
-div#main div{
-    float: left;
-}
-div#contents{
-	font: bold 18px "Julius Sans One",Arial, Helvetica, sans-serif;
-	margin-left: 30px;
-}
-h1{
-    margin-top: 15px;
-}
-p{
-    margin-top: -15px;
-}
-span{
-    color: rgb(204,0,0);
-    font-size: 24px
-}
-</style>
+<link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon"/>
+<link  rel="stylesheet"type="text/css" href="public/css/indexStyle.css"/>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+<!–[if IE9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]–>
 </head>
+
 <body>
-<div id="main">
-  <div id="logo"><img src="public/img/logo.png" width="110" height="110" alt="Logo-Jiahan"/></div>
-    <div id="contents">
-        <h1>Coming Soon...</h1>
-        <p>This website will be available from <span>17th, Dec, 2012</span></p>
-    </div>
+<!--Background-->
+<div class="backPanel">
+  <img src="public/img/back.jpg"/>
 </div>
+<!-- Navbar -->
+<div id="navWrapper">
+<nav id="navBar">
+		<div class="title"><a class="logo" href="index.html">Jiahan Wang</a></div>
+        <div class="links">
+            <ul id="links">
+                <li><a class="link" href="mailto:jiahanwang1990@gmail.com?subject=Aloha from JiahanWang.ME"><img src="public/img/mail.png" alt="mail"/><img class="second" src="public/img/mail2.png" alt="mail"/></a></li>
+                <li><a class="link" target="_blank" href="http://www.facebook.com/jiahan.wang.37"><img src="public/img/fb.png" alt="fb"/><img class="second" src="public/img/fb2.png" alt="fb"/></a></li>
+                <li><a class="link" target="_blank" href="http://github.com/jiahanwang"><img src="public/img/github.png" alt="github"/><img class="second" src="public/img/github2.png" alt="github"/></a></li>
+            </ul>
+        </div>
+        <div class="corner"><img src="public/img/nav_corner.png" width="70px" height="70px"/></div>
+        
+</nav>
+</div>
+<!-- Main -->
+<article id="mainPanel">
+  	 <section id="aboutMe">
+        <header>ME</header>
+        <div class="tilesGroup clearfix size-two">
+        <!--Photos-->
+            <div class="tile tile-large-horizontal scrollable scrollable-vertical">
+              <div class="items vertical">
+               <div class="item item-one">
+              	<img class="logo-horizontal-small" src="public/img/photos.png" alt="photos"/><p>Photos</p>
+                </div>
+                <div class="item">
+                  <img src="public/img/dlut1.jpg" alt="dlut1"/>
+                </div>
+                <div class="item">
+                  <img src="public/img/dlut2.jpg" alt="dlut2"/>
+                </div>
+                <div class="item">
+                  <img src="public/img/dlut3.jpg" alt="dlut3"/>
+                </div>
+              </div>
+            </div>
+            <!--Email-->
+            <a class="tile tile-small" href="mailto:jiahanwang1990@gmail.com?subject=Aloha from JiahanWang.ME"><img class="logo-small" src="public/img/email.png" alt="email"/><p>E-mail</p></a>
+            <!--Biography-->
+            <a class="tile tile-small" href="article/bio.html"><img class="logo-small" src="public/img/bio.png" alt="bio"/><p>Biography</p></a>
+            <!--Resume-->
+            <a class="tile tile-small" target="_blank" href="article/resume.pdf"><img class="logo-small" src="public/img/resume.png" alt="resume"/><p>Resume</p></a>
+        </div>
+     </section>
+  	 <section id="skills">
+       <header>SKILLS</header>
+        <div class="tilesGroup clearfix size-two">
+            <a class="tile tile-large-horizontal" href="article/frontend.html">
+            <img class="logo-horizontal-large" src="public/img/js.png" alt="js"/>
+            <p>JavaScript</p>
+            </a>
+            <a class="tile tile-large-vertical" href="article/backend.html"><img class="logo-vertical" src="public/img/java.png" alt="java"/><p>Java</p></a>
+            <a class="tile tile-small" href="article/frontend.html#html"><img class="logo-small" src="public/img/html5.png" alt="html5"/><p>HTML5</p></a>
+            <a class="tile tile-small" href="article/frontend.html#css"><img class="logo-small" src="public/img/css3.png" alt="css3"/><p>CSS3</p></a>
+            <a class="tile tile-small" href="article/backend.html#c"><img class="logo-small" src="public/img/c.png" alt="c/c++"/><p>C/C++</p></a>
+            <a class="tile tile-small" href="article/backend.html#php"><img class="logo-small" src="public/img/php.png" alt="php"/><p>PHP</p></a>
+        </div>
+    </section>
+  	<section id="projects">
+       <header id="projects">PROJECTS</header>
+        <div class="tilesGroup clearfix size-three">
+            <a class="tile tile-large-horizontal" href="article/japanese_index.html"><img class="logo-horizontal-small" src="public/img/learn.png" alt="japanese index"/><p>Japanese Learning Online</p></a>
+            <a class="tile tile-large-horizontal" href="article/japanese_comp.html"><img class="logo-horizontal-small" src="public/img/comp.png" alt="japanese comp"/><p>Japanese Composition Online</p></a>
+            <a class="tile tile-small" href="article/agri_support.html"><img class="logo-small" src="public/img/agri.png" alt="agri"/><p>Agri-Support</p></a>
+            <a class="tile tile-small" href="article/motions.html"><img class="logo-small" src="public/img/motion.png" alt="motion"/><p>Motions Detecive</p></a>
+            <a class="tile tile-large-horizontal" href="article/baidu_top.html"><img class="logo-horizontal-small" src="public/img/top.png" alt="baidu"/><p>Baidu&reg;Top Words Editor</p></a>
+            <a class="tile tile-large-horizontal" href="article/anime_lover.html"><img class="logo-horizontal-small" src="public/img/animelover.png" alt="anime lover"/><p>Anime Lover</p></a>    
+        </div>
+    </section>
+	<section id="interests">
+       <header id="interests">INTERESTS</header>
+        <div class="tilesGroup clearfix size-two">
+            <div class="tilesGroup clearfix size-two">
+            <!-- TV -->
+            <div class="tile tile-large-horizontal scrollable scrollable-vertical">
+              <div class="items  vertical">
+              <div class="item item-one">
+              	<img class="logo-horizontal-small" src="public/img/tv.png" alt="tv"/><p>TV Dramas</p>
+              </div>
+               <div class="item">
+                  <a target="_blank" href="http://www.cbs.com/shows/big_bang_theory/"><img src="public/img/tv1.jpg" alt="bigbang"/></a>
+               </div>
+               <div class="item">
+                  <a target="_blank" href="http://www.fox.com/glee/"><img src="public/img/tv2.jpg" alt="glee"/></a>
+               </div>
+               <div class="item">
+                  <a target="_blank" href="http://abc.go.com/shows/modern-family"><img src="public/img/tv3.jpg" alt="modern family"/></a>
+               </div>
+               <div class="item">
+                  <a target="_blank" href="http://www.imdb.com/title/tt0108778/"><img src="public/img/tv4.jpg" alt="friends"/></a>
+               </div>
+              </div>
+            </div> 
+            <!-- Books -->
+            <a class="tile tile-small" href="#"><img class="logo-small" src="public/img/books.png" alt="books"/><p>Books</p></a>
+          <!-- Movies -->
+            <a class="tile tile-small" href="#"><img class="logo-small" src="public/img/movies.png" alt="movies"/><p>Movies</p></a>
+            <!-- Anime -->
+            <div class="tile tile-large-horizontal scrollable scrollable-horizontal">
+                <div class="items horizontal">
+                   <div class="item item-one">
+                     <img class="logo-horizontal-small" src="public/img/anime.png" alt="anime"/>
+                     <p>Anime</p>
+                   </div>
+                   <div class="item">
+                     <a target="_blank" href="http://websunday.net/conan/"><img src="public/img/anime1.jpg" alt="conan"/></a>
+                   </div>
+                   <div class="item">
+                     <a target="_blank" href="http://www.evangelion.co.jp/index.html"><img src="public/img/anime2.jpg" alt="eva"/></a>
+                   </div>
+                   <div class="item">
+                     <a target="_blank" href="http://www.gundam00.net/"><img src="public/img/anime3.jpg" alt="gundam OO"/></a>
+                   </div>
+                </div>
+            </div>
+  
+        </div>
+    </section>
+</article>
+<script type="text/javascript" src="public/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="public/js/jquery.tools.min.js"></script>
+<script type="text/javascript" src="public/js/jquery.color.min.js"></script>
+<script type="text/javascript" src="public/js/index.js"></script>
 </body>
 </html>
