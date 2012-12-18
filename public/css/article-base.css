@@ -13,26 +13,28 @@ div#navWrapper{
 	left: 0px;
 	height: 70px;
 	width:510px;
-	opacity: 0.7;
+	display: none;
 }
 nav div{
 	float: left;
 	height: 70px;
-	background-color: #000;
 	display: inline-block;
+	background-color: #000;
+	opacity: 0.7;
 }
 nav a.logo{
 	font: 700 25px/70px Raleway,'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
-	color: #FFFFFF;
+	color: #FFF;
 	text-decoration: none;
 	margin: 0px 40px 0px 30px;
 }
+
 nav div.corner{
 	background-color: transparent;
+	opacity: 0.7;
 }
 nav div.links{
 	width: 200px;
-	overflow:hidden
 }
 nav ul{
 	display: inline-block;
@@ -40,7 +42,6 @@ nav ul{
 	height: 70px;
 	margin: 0px;
 	padding: 0px;
-	background-color: #000;
 }
 nav li{
 	display: inline-block;
