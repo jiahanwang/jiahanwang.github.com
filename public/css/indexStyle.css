@@ -133,25 +133,18 @@ div.size-two{
 div.size-three{	
 	width: 580px;
 }
-a.tile:link, a.tile:visited, a.tile:focus, a.tile:hover, a.tile:active{
+.tile{
 	background-color: #c40f0f;
 	margin: 5px 5px 5px 5px;
-	color: rgb(255,255,255);
+	color: #FFFFFF;
 	text-decoration: none;
 	position: relative;	
 	-webkit-box-shadow: 4px 4px 10px #CCC;
 	   -moz-box-shadow: 4px 4px 10px #CCC;
 			box-shadow: 4px 4px 10px #CCC;
 }
-div.tile{
-	background-color: #c40f0f;
-	margin: 5px 5px 5px 5px;
-	color: rgb(255,255,255);
-	text-decoration: none;
-	position: relative;	
-	-webkit-box-shadow: 4px 4px 10px #CCC;
-	   -moz-box-shadow: 4px 4px 10px #CCC;
-			box-shadow: 4px 4px 10px #CCC;
+a.tile{
+	color: #FEFEFE;
 }
 .tile-small {
 	float: left;
