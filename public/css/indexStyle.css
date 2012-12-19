@@ -143,9 +143,6 @@ div.size-three{
 	   -moz-box-shadow: 4px 4px 10px #CCC;
 			box-shadow: 4px 4px 10px #CCC;
 }
-a.tile{
-	color: #FEFEFE;
-}
 .tile-small {
 	float: left;
 	height: 135px;
