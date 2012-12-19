@@ -35,6 +35,9 @@ div.backPanel img{
 	div.backPanel {
 		display: none;
 	}
+	div.backPanel img{
+		display: none;
+	}
 }
 /*********** NavBar ***********/
 div#navWrapper{
