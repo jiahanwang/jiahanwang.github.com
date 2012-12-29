@@ -115,7 +115,7 @@ $(window).load(function(){
 	//Show Main
 	$("#navWrapper").fadeIn(500);
 	$("#mainPanel").delay(500).animate({"left": "65px","opacity": "1.0"},500);
-	$(".scrollable-vertical").scrollable({speed: 500, keyboard: false,vertical: true, circular: true}).autoscroll({autoplay: true, interval: 4000 });
-	$(".scrollable-horizontal").scrollable({speed: 500 , keyboard: false, vertical: false, circular: true}).autoscroll({autoplay: true, interval: 7000 });
+	$(".scrollable-vertical").scrollable({speed: 500, keyboard: false,vertical: true, circular: true}).autoscroll({autoplay: true, interval: 3000 });
+	$(".scrollable-horizontal").scrollable({speed: 500 , keyboard: false, vertical: false, circular: true}).autoscroll({autoplay: true, interval: 5000 });
 
 });
