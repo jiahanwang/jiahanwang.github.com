@@ -147,7 +147,7 @@ section a:hover, section a:active, section a:focus{
 }
 /*********** Books ***********/
 section.book{
-	margin: 30px 10px 0px 10px;
+	margin: 30px 20px 0px 20px;
 	padding: 10px;
 	border-bottom: 1px solid #E5E5E5;
 }
@@ -155,12 +155,17 @@ h2.books-header{
 	margin-top: 2.5em;
 }
 div.left{
-	width: 15%;
+	width: 110px;
 	height: 140px;
 	float: left;
 	border: 1px solid #8F8B8B;
 }
-div.left img{
+div.movie{
+	width: 110px;
+	height: 150px;
+	float: left;
+}
+div.left img, div.movie img{
 	height: 100%;
 	width: 100%;
 }
