@@ -81,15 +81,14 @@ article#main{
 }
 h1{
 	font: 600 30px 'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
-float: right;
-color: #c40f0f;
+	float: right;
+	color: #c40f0f;
 
 }
 h2{
 	font: 600 25px 'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
 	color: #c40f0f;
-	margin-top: 1.5em;
-	
+	margin-top: 1.5em;	
 }
 h2.first{
 	margin-top: 1em;
@@ -138,7 +137,7 @@ section a:hover, section a:active, section a:focus{
 	color: #fb1616;
 }
 .shadow {
-	height: 32px;
+	height: 25px;
 	width: 940px;
 	margin: 0 auto;
 	background-color: transparent;
@@ -188,12 +187,12 @@ p.quotes{
 }
 /*********** clearfix ***************/
 .clearfix:after {
-visibility: hidden;
-display: block;
-font-size: 0;
-content: " ";
-clear: both;
-height: 0;
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 .clearfix{*zoom:1;}
 
@@ -213,10 +212,10 @@ footer#version{
 	color: white;
 }
 *::-moz-selection {
-    background: #D81919;
-    color: white;
+    	background: #D81919;
+    	color: white;
 }
 *::-webkit-selection {
-    background: #D81919;
-    color: white;
+    	background: #D81919;
+    	color: white;
 }
