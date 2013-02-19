@@ -51,7 +51,7 @@ div#navWrapper{
 	left: 0px;
 	height: 70px;
 	width:510px;
-	display: none;
+	/*display: none;*/
 }
 nav div{
 	float: left;
@@ -70,6 +70,9 @@ nav a.logo{
 nav div.corner{
 	background-color: transparent;
 	opacity: 0.7;
+	width: 70px;
+	background-image: url('../img/nav.png');
+	background-position: -90px 0px;
 }
 nav div.links{
 	width: 200px;
@@ -89,14 +92,44 @@ nav li{
 	margin: 0px;
 	padding: 0px;
 }
-nav a.link img{
+nav a.link{
+	display: block;
+	width: 60px;
+	height: 70px;
+}
+nav a.link p{
 	position: relative;
 	top: 15px;
-	left: 5px
+	left: 5px;
+	width: 30px;
+	height: 30px;
+	background-image: url('../img/nav.png');
+
 }
-nav a.link img.second{
+nav a.link p.second{
 	display: none;
-	margin-left: -30px;
+	margin-top: -30px;
+	width: 30px;
+	height: 30px;
+	background-image: url('../img/nav.png');
+}
+.nav-mail{
+	background-position: 0px 0px;
+}
+.nav-mail2{
+	background-position: 0px -30px;
+}
+.nav-fb{
+	background-position: -30px 0px;
+}
+.nav-fb2{
+	background-position: -30px -30px;
+}
+.nav-git{
+	background-position: -60px 0px;
+}
+.nav-git2{
+	background-position: -60px -30px;
 }
 /*********** Main***********/
 article#mainPanel{
@@ -138,6 +171,7 @@ div.size-three{
 	margin: 5px 5px 5px 5px;
 	color: #FFFFFF;
 	text-decoration: none;
+	display: block;
 	position: relative;	
 	-webkit-box-shadow: 4px 4px 10px #CCC;
 	   -moz-box-shadow: 4px 4px 10px #CCC;
@@ -203,29 +237,101 @@ p{
 	height:135px;  
 }
 /***********IMG logos************/
-img.logo-small{
+.logo-small{
 	position: absolute;
 	top: 20px;
 	left: 25px;
+	width: 85px; 
+	height: 85px;
+	background-image: url('../img/logos.png');
 }
-img.logo-vertical{
+.logo-vertical{
 	position: absolute;
 	top: 96px;
 	left: 25px;
+	width:85px;
+	height:85px;
+	background-image: url('../img/logos.png');
 }
-img.logo-horizontal-large{
+.logo-horizontal-large{
 	position: absolute;
 	top: 25px;
 	left: 80px;
+	width:121px;
+	height:85px;
+	background-image: url('../img/logos.png');
 }
-img.logo-horizontal-small{
+.logo-horizontal-small{
 	position: absolute;
 	top: 25px;
 	left: 96px;
 	width:85px;
 	height:85px;
+	background-image: url('../img/logos.png');
 }
-
+.logo-photo{
+	background-position: 0px 0px;
+}
+.logo-email{
+	background-position: -85px 0px;
+}
+.logo-bio{
+	background-position: -170px 0px;
+}
+.logo-resume{
+	background-position: -255px 0px;
+}
+.logo-js{
+	background-position: 0px -425px;
+}
+.logo-java{
+	background-position: 0px -85px;
+}
+.logo-html5{
+	background-position: -85px -85px;
+}
+.logo-css3{
+	background-position: -170px -85px;
+}
+.logo-c{
+	background-position: -255px -85px;
+}
+.logo-php{
+	background-position: 0px -170px;
+}
+.logo-learn{
+	background-position: -85px -170px;
+}
+.logo-comp{
+	background-position: -170px -170px;
+}
+.logo-agri{
+	background-position: -255px -170px;
+}
+.logo-motions{
+	background-position: 0px -255px;
+}
+.logo-top{
+	background-position: -85px -255px;
+}
+.logo-animelover{
+	background-position: -170px -255px;
+}
+.logo-icm{
+	background-position: -255px -255px;
+}
+.logo-tv{
+	background-position: 0px -340px;
+}
+.logo-books{
+	background-position: -85px -340px;
+}
+.logo-movies{
+	background-position: -170px -340px;
+}
+.logo-anime{
+	background-position: -255px -340px;
+}
 /*********** clearfix ***************/
 .clearfix:after {
 visibility: hidden;
@@ -236,7 +342,6 @@ clear: both;
 height: 0;
 }
 .clearfix{*zoom:1;}
-
 /*********** Selection ***********/
 *::selection {
 	background: #fb1616;
