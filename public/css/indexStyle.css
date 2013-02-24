@@ -209,7 +209,10 @@ p{
 }
 .scrollable a{
 	margin: 0px;
-	padding: 0px;	
+	padding: 0px;
+	display: block;
+	width: 280px;
+	height: 135px;	
 }
 
 .horizontal {
@@ -224,7 +227,7 @@ p{
 	height:20000em;
 }
 
-.item-one{
+.item-first{
 	position: relative;
 }
 .item {
@@ -236,7 +239,7 @@ p{
 	width:280px;
 	height:135px;  
 }
-/***********IMG logos************/
+/***********logos************/
 .logo-small{
 	position: absolute;
 	top: 20px;
@@ -331,6 +334,28 @@ p{
 }
 .logo-anime{
 	background-position: -255px -340px;
+}
+/***********photoss************/
+.photos{
+	background-image: url('../img/photos.jpg');
+}
+.animes{
+	background-image: url('../img/animes.jpg');
+}
+.tvs{
+	background-image: url('../img/tvs.jpg');
+}
+.item-second{
+	background-position: 0px 0px;
+}
+.item-third{
+	background-position: 0px -135px;
+}
+.item-fourth{
+	background-position: 0px -270px;
+}
+.item-fifth{
+	background-position: 0px -405px;
 }
 /*********** clearfix ***************/
 .clearfix:after {
