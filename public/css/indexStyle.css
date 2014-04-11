@@ -133,7 +133,7 @@ nav a.link p.second{
 }
 /*********** Main***********/
 article#mainPanel{
-	width: 2300px;
+	width: 1600px;
 	height: 480px;
 	position: absolute;
 	top: 50%;
@@ -146,19 +146,19 @@ section{
 	float: left;
 	font-size: 14px;
 	font-weight: 400;
-	margin-right: 100px;	
+	margin-right: 70px;	
 }
 section header{
 	margin-left: 5px;
 	font-size: 28px;
 	font-weight: 700;
-	color: rgba(0,0,0,0.8);
+	color: rgba(94, 94, 94, 0.96);
 }
 div.tilesGroup{
 	/*border: 1px solid rgb(0,0,0);*/
 }
 div.size-one{
-	width: 320px;
+	/* width: 320px; */
 }
 div.size-two{
 	width: 435px;
@@ -296,20 +296,24 @@ p{
 .logo-css3{
 	background-position: -170px -85px;
 }
-.logo-c{
+.logo-mysql{
 	background-position: -255px -85px;
 }
 .logo-php{
 	background-position: 0px -170px;
 }
-.logo-learn{
-	background-position: -85px -170px;
+.logo-geeglo{
+	background-position: -140px -425px; 
 }
 .logo-comp{
 	background-position: -170px -170px;
 }
 .logo-agri{
 	background-position: -255px -170px;
+}
+
+.logo-together{
+	background-position: -85px -170px;
 }
 .logo-motions{
 	background-position: 0px -255px;

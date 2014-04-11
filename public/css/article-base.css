@@ -91,7 +91,8 @@ h2{
 	margin-top: 1.5em;	
 }
 h2.first{
-	margin-top: 1em;
+	/* margin-top: 1em; */
+	margin-bottom: 0.5em;
 }
 h3{
 	font: 600 20px 'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
@@ -101,6 +102,7 @@ p{
 	font: 300 16px/28px 'Lucida Sans Unicode', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',sans-serif;
 	text-align: justify;
 	margin-bottom: 1em;	
+	margin-top: 0em;
 }
 span.notice{
 	font-size: 14px;

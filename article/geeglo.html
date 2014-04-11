@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Agri-support | Jiahan Wang</title>
+<title>Geeglo | Jiahan Wang</title>
 <link rel="shortcut icon" href="../public/img/favicon.ico" type="image/x-icon"/>
 <link  rel="stylesheet" type="text/css" href="../public/css/article-base.css"/>
 <link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
@@ -27,24 +27,25 @@
 </div>
 <!-- Main  -->
     <article id="main">
-        <header class="article-header"><h1>Agriculture Support System</h1></header>
+        <header class="article-header"><h1>Geeglo: A small-scale search engine</h1></header>
         <section>
-        <header><h2 class="first">Responsibility</h2></header>
-
-        <p>Team leader</p>
-	  
+			<header><h2 class="first">Responsibility</h2></header>
+			<p>Team Leader</p>
         </section>
         <section>
-        <header><h2>Introduction</h2></header>
-        <p>This system was developed by adopting the thinking of software engineering. We successfully developed all processes from selling agricultural products to buying agricultural products. Its main functions are buying agricultural production, managing agricultural production materials and so on. There are two different login statuses with different login rights: one is seller and the other is producer, they can do what they want within their power.</p>
-        </section>
+			<header><h2>Introduction</h2></header>
+			<p>This is a course project of INF 225 Information Retrieval. It is a small-scale but complete search engine for ics.uci.edu domain.</p>
+		</section>
         <section>
-        <header><h2>Feathers</h2></header>
-        <h3>SSH</h3>
-        <p>This system is based on classic SSH frameworks of Java. Struts2 is applied to separate the model from the view and the controller. The Inversion of Control container in Spring is chosen to manage lifecycle of Java objects for us. Hibernate is also integrated to map an object-oriented domain model to a traditional relational database. 
-</p>
-        <h3>Friendly Interface</h3>
-        <p>Several UI components are applied to enhance user experience, such as accordion from jQuery to show different operations and <a target="_blank" href="http://tablesorter.com/docs/">TableSorter</a>  plugin to sort the table by each headers.</p>
+			<header><h2>Feathers</h2></header>
+			<h3>Vector Space Model</h3>
+			<p>Compute tf-idf with one-gram and two-gram indexes and apply Vector Space Model to get the cosine when every query comes.</p>
+			<h3>PageRank</h3>
+			<p>Go through all pages of ics.uci.edu domain to generate a graph and then apply pageRank algorithm to rank every page.</p>
+			<h3>Binary Query</h3>
+			<p>Support AND/OR operations and rank results according to tf-idf and pageRank.</p>
+			<h3>Web Interface</h3>
+			<p>A Ajax-based Google-like web interface. Also use Ajax to get Google result in JSON format and then compare both results.</p>
         </section>
     </article>
     <div class="shadow"></div>
@@ -61,8 +62,9 @@ $(function(){
 	);
 });
 $(window).ready(function(e) {
-    $("#navWrapper").fadeIn();
+    $("#navWrapper").show();
 });
 </script>
 </body>
+
 </html>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Agri-support | Jiahan Wang</title>
+<title>Together | Jiahan Wang</title>
 <link rel="shortcut icon" href="../public/img/favicon.ico" type="image/x-icon"/>
-<link  rel="stylesheet" type="text/css" href="../public/css/article-base.css"/>
+<link  rel="stylesheet"type="text/css" href="../public/css/article-base.css"/>
 <link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
 <!–[if IE9]> 
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,30 +27,29 @@
 </div>
 <!-- Main  -->
     <article id="main">
-        <header class="article-header"><h1>Agriculture Support System</h1></header>
+        <header class="article-header"><h1>Together</h1></header>
         <section>
         <header><h2 class="first">Responsibility</h2></header>
-
-        <p>Team leader</p>
-	  
+        <p>Front End Developer</p>
         </section>
         <section>
         <header><h2>Introduction</h2></header>
-        <p>This system was developed by adopting the thinking of software engineering. We successfully developed all processes from selling agricultural products to buying agricultural products. Its main functions are buying agricultural production, managing agricultural production materials and so on. There are two different login statuses with different login rights: one is seller and the other is producer, they can do what they want within their power.</p>
+        <p>This Chrome extension provides a real-time chatroom for users who search the same query at Baidu.com. </p>
         </section>
         <section>
-        <header><h2>Feathers</h2></header>
-        <h3>SSH</h3>
-        <p>This system is based on classic SSH frameworks of Java. Struts2 is applied to separate the model from the view and the controller. The Inversion of Control container in Spring is chosen to manage lifecycle of Java objects for us. Hibernate is also integrated to map an object-oriented domain model to a traditional relational database. 
-</p>
-        <h3>Friendly Interface</h3>
-        <p>Several UI components are applied to enhance user experience, such as accordion from jQuery to show different operations and <a target="_blank" href="http://tablesorter.com/docs/">TableSorter</a>  plugin to sort the table by each headers.</p>
+			<header><h2>Feathers</h2></header>
+			<h3>Real-time Chatting</h3>
+			<p>This extension monitors urls and every time it detects the user is doing a search at Baidu.com, it will extract the query and create a char room for this query (if the query already searched by other users, join this user to the existing chat room). This real-time service is back by FireBase.</p>
+			<h3>HTML5/CSS3</h3>
+			<p>Several features are used in this extension such as localStorage to temporarily store user's nickname.</p>
         </section>
     </article>
     <div class="shadow"></div>
     <footer id="version">
     	<span>&copy;2014 JIAHANWANG.ME</span>
     </footer>
+
+</div>
 <script type="text/javascript" src="../public/js/jquery-1.8.2.min.js"></script>
 <script type="text/javascript">
 $(function(){
@@ -61,8 +60,9 @@ $(function(){
 	);
 });
 $(window).ready(function(e) {
-    $("#navWrapper").fadeIn();
+    $("#navWrapper").show();
 });
 </script>
 </body>
+
 </html>
