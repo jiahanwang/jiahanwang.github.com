@@ -1,5 +1,3 @@
 jiahanwang.me
 =====================
-Personal website hosted on jiahanwang.github.com
-Test Test
-
+Personal website hosted on jiahanwang.github.io
